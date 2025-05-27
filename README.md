@@ -12,10 +12,7 @@ Welcome to the official repository of **ARREST** 🧠 — a framework for improv
 
 **ARREST** supports :
 - 🤝 Soft refusals
-- 🛑 Hard denials
 - ✅ Truthfulness restoration
-
-🧪 Our results demonstrate ARREST’s superiority over RLHF-aligned models in generating contextually nuanced refusals and improving factual accuracy through adversarial interventions.
 
 ---
 
@@ -70,6 +67,8 @@ In the root folder of this repo, run the following commands to set things up.
    - `model_name`: Choose from [`llama2_7B`](https://huggingface.co/meta-llama/Llama-2-7b-hf), [`llama3_8B`](https://huggingface.co/meta-llama/Llama-3.1-8B), or [`vicuna_7B`](https://huggingface.co/lmsys/vicuna-7b-v1.5).
    - `dataset_name`: Choose from [`truthfulqa`](https://huggingface.co/datasets/truthfulqa/truthful_qa/viewer/generation/validation), [`triviaqa`](https://huggingface.co/datasets/mandarjoshi/trivia_qa), [`tydiqa`](https://huggingface.co/datasets/google-research-datasets/tydiqa), [`coqa`](https://downloads.cs.stanford.edu/nlp/data/coqa/coqa-dev-v1.0.json).
    - Truthfulness (%) will be printed on screen and responses will be saved into ```hallucination/responses``` folder.
+
+---
 
 ## 🛡️ Safety Evaluation
 
