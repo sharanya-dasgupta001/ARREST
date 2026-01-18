@@ -1,12 +1,27 @@
+<div align="center">
+
 # 🚨 ARREST: Adversarial Resilient Regulation Enhancing Safety and Truth in Large Language Models
 
-Welcome to the official repository of **ARREST** 🧠 — a framework for improving **truthfulness** and **safety** in Large Language Models (LLMs) via *intervention-based adversarial training*. 
+[![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](https://www.arxiv.org/pdf/2601.04394)
+[![Python 3.10.12](https://img.shields.io/badge/python-3.10.12-blue.svg)](https://www.python.org/downloads/release/python-31012/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
+
+This repository contains the source code for the **EACL 2026 Main** paper [***ARREST: Adversarial Resilient Regulation Enhancing Safety and Truth in Large Language Models***](https://www.arxiv.org/pdf/2601.04394) by Sharanya Dasgupta, Arkaprabha Basu, Sujoy Nath and Swagatam Das.
+
+<div align="center">
+<a href="https://www.arxiv.org/pdf/2601.04394">
+  <img src="ARREST_method.jpg" width="100%" alt="ARREST Method">
+</a>
+
+</div>
 
 ---
 
 ## 📜 Abstract
 
-> **ARREST** introduces an *external adversarial network* trained to monitor and selectively intervene during inference, regulating:
+> **ARREST** is a unified framework that adversarially steers LLM internal representations toward safety and truthfulness during inference, correcting representational misalignment without fine-tuning base model parameters.
 - ❌ **Hallucinations → Truthful output**
 - ⚠️ **Unsafe generations → Safe responses**
 
@@ -118,3 +133,16 @@ In the root folder of this repo, run the following commands to set things up.
 2. 🧬 **Intervention**  
 [pyvene](https://github.com/stanfordnlp/pyvene) is really cool library that can be used to load Inference-time Intervention ⚙️ , and many other mechanistic intervention 🧩 technique.
 ---
+
+## 📚 Citation
+
+If you find this code or paper useful, please cite our work:
+
+```bibtex
+@article{dasgupta2026arrest,
+  title={ARREST: Adversarial Resilient Regulation Enhancing Safety and Truth in Large Language Models},
+  author={Dasgupta, Sharanya and Basu, Arkaprabha and Nath, Sujoy and Das, Swagatam},
+  journal={arXiv preprint arXiv:2601.04394},
+  year={2026}
+}
+```
